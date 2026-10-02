@@ -1,0 +1,47 @@
+{
+  "_help": "Copy this file to config.json and edit. The product URLs below are placeholders. Replace them with the exact product pages you want to watch.",
+
+  "ntfy": {
+    "server": "https://ntfy.sh",
+    "topic": "CHANGE-ME-pika-7f3k9q2-make-this-long-and-random"
+  },
+  "discord_webhook": "",
+
+  "poll_seconds_min": 30,
+  "poll_seconds_max": 60,
+  "cooldown_after_cart_minutes": 30,
+  "max_buys_per_product": 1,
+  "daily_buy_limit": 3,
+  "amazon_require_amazon_seller": true,
+  "walmart_require_walmart_seller": true,
+
+  "chrome_profile_dir": "chrome-profile",
+
+  "products": [
+    {
+      "name": "Example Target ETB",
+      "url": "https://www.target.com/p/REPLACE-WITH-PRODUCT-URL",
+      "max_price": 49.99
+    },
+    {
+      "name": "Example Best Buy booster box",
+      "url": "https://www.bestbuy.com/site/REPLACE-WITH-PRODUCT-URL",
+      "max_price": 161.64
+    },
+    {
+      "name": "Example Amazon ETB",
+      "url": "https://www.amazon.com/dp/REPLACE-ASIN",
+      "max_price": 49.99
+    },
+    {
+      "name": "Example Pokemon Center item",
+      "url": "https://www.pokemoncenter.com/product/REPLACE",
+      "max_price": 49.99
+    },
+    {
+      "name": "Example Walmart item",
+      "url": "https://www.walmart.com/ip/REPLACE",
+      "max_price": 49.99
+    }
+  ]
+}

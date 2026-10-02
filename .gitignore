@@ -1,0 +1,6 @@
+config.json
+state.json
+chrome-profile/
+probes/
+*.log
+__pycache__/
